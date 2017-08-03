@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93623C0A1F33C3AB0003A487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C091F33C3AB0003A487 /* AppDelegate.swift */; };
+		93623C0C1F33C3AB0003A487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C0B1F33C3AB0003A487 /* ViewController.swift */; };
+		93623C0F1F33C3AB0003A487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93623C0D1F33C3AB0003A487 /* Main.storyboard */; };
+		93623C111F33C3AB0003A487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93623C101F33C3AB0003A487 /* Assets.xcassets */; };
+		93623C141F33C3AB0003A487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93623C121F33C3AB0003A487 /* LaunchScreen.storyboard */; };
+		93623C1F1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C1E1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift */; };
+		93623C2A1F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C291F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93623C1B1F33C3AB0003A487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93623BFE1F33C3AB0003A487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93623C051F33C3AB0003A487;
+			remoteInfo = "Driver Onboarding 360";
+		};
+		93623C261F33C3AB0003A487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93623BFE1F33C3AB0003A487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93623C051F33C3AB0003A487;
+			remoteInfo = "Driver Onboarding 360";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93623C061F33C3AB0003A487 /* Driver Onboarding 360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driver Onboarding 360.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93623C091F33C3AB0003A487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93623C0B1F33C3AB0003A487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93623C0E1F33C3AB0003A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93623C101F33C3AB0003A487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93623C131F33C3AB0003A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93623C151F33C3AB0003A487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93623C1A1F33C3AB0003A487 /* Driver Onboarding 360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver Onboarding 360Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93623C1E1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_Onboarding_360Tests.swift; sourceTree = "<group>"; };
+		93623C201F33C3AB0003A487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93623C251F33C3AB0003A487 /* Driver Onboarding 360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver Onboarding 360UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93623C291F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_Onboarding_360UITests.swift; sourceTree = "<group>"; };
+		93623C2B1F33C3AB0003A487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93623C031F33C3AB0003A487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93623C171F33C3AB0003A487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93623C221F33C3AB0003A487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93623BFD1F33C3AB0003A487 = {
+			isa = PBXGroup;
+			children = (
+				93623C081F33C3AB0003A487 /* Driver Onboarding 360 */,
+				93623C1D1F33C3AB0003A487 /* Driver Onboarding 360Tests */,
+				93623C281F33C3AB0003A487 /* Driver Onboarding 360UITests */,
+				93623C071F33C3AB0003A487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93623C071F33C3AB0003A487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93623C061F33C3AB0003A487 /* Driver Onboarding 360.app */,
+				93623C1A1F33C3AB0003A487 /* Driver Onboarding 360Tests.xctest */,
+				93623C251F33C3AB0003A487 /* Driver Onboarding 360UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93623C081F33C3AB0003A487 /* Driver Onboarding 360 */ = {
+			isa = PBXGroup;
+			children = (
+				93623C091F33C3AB0003A487 /* AppDelegate.swift */,
+				93623C0B1F33C3AB0003A487 /* ViewController.swift */,
+				93623C0D1F33C3AB0003A487 /* Main.storyboard */,
+				93623C101F33C3AB0003A487 /* Assets.xcassets */,
+				93623C121F33C3AB0003A487 /* LaunchScreen.storyboard */,
+				93623C151F33C3AB0003A487 /* Info.plist */,
+			);
+			path = "Driver Onboarding 360";
+			sourceTree = "<group>";
+		};
+		93623C1D1F33C3AB0003A487 /* Driver Onboarding 360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93623C1E1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift */,
+				93623C201F33C3AB0003A487 /* Info.plist */,
+			);
+			path = "Driver Onboarding 360Tests";
+			sourceTree = "<group>";
+		};
+		93623C281F33C3AB0003A487 /* Driver Onboarding 360UITests */ = {
+			isa = PBXGroup;
+			children = (
+				93623C291F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift */,
+				93623C2B1F33C3AB0003A487 /* Info.plist */,
+			);
+			path = "Driver Onboarding 360UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93623C051F33C3AB0003A487 /* Driver Onboarding 360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93623C2E1F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360" */;
+			buildPhases = (
+				93623C021F33C3AB0003A487 /* Sources */,
+				93623C031F33C3AB0003A487 /* Frameworks */,
+				93623C041F33C3AB0003A487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Driver Onboarding 360";
+			productName = "Driver Onboarding 360";
+			productReference = 93623C061F33C3AB0003A487 /* Driver Onboarding 360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93623C191F33C3AB0003A487 /* Driver Onboarding 360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93623C311F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360Tests" */;
+			buildPhases = (
+				93623C161F33C3AB0003A487 /* Sources */,
+				93623C171F33C3AB0003A487 /* Frameworks */,
+				93623C181F33C3AB0003A487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93623C1C1F33C3AB0003A487 /* PBXTargetDependency */,
+			);
+			name = "Driver Onboarding 360Tests";
+			productName = "Driver Onboarding 360Tests";
+			productReference = 93623C1A1F33C3AB0003A487 /* Driver Onboarding 360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93623C241F33C3AB0003A487 /* Driver Onboarding 360UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93623C341F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360UITests" */;
+			buildPhases = (
+				93623C211F33C3AB0003A487 /* Sources */,
+				93623C221F33C3AB0003A487 /* Frameworks */,
+				93623C231F33C3AB0003A487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93623C271F33C3AB0003A487 /* PBXTargetDependency */,
+			);
+			name = "Driver Onboarding 360UITests";
+			productName = "Driver Onboarding 360UITests";
+			productReference = 93623C251F33C3AB0003A487 /* Driver Onboarding 360UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93623BFE1F33C3AB0003A487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Robert Cash";
+				TargetAttributes = {
+					93623C051F33C3AB0003A487 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					93623C191F33C3AB0003A487 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93623C051F33C3AB0003A487;
+					};
+					93623C241F33C3AB0003A487 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93623C051F33C3AB0003A487;
+					};
+				};
+			};
+			buildConfigurationList = 93623C011F33C3AB0003A487 /* Build configuration list for PBXProject "Driver Onboarding 360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93623BFD1F33C3AB0003A487;
+			productRefGroup = 93623C071F33C3AB0003A487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93623C051F33C3AB0003A487 /* Driver Onboarding 360 */,
+				93623C191F33C3AB0003A487 /* Driver Onboarding 360Tests */,
+				93623C241F33C3AB0003A487 /* Driver Onboarding 360UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93623C041F33C3AB0003A487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93623C141F33C3AB0003A487 /* LaunchScreen.storyboard in Resources */,
+				93623C111F33C3AB0003A487 /* Assets.xcassets in Resources */,
+				93623C0F1F33C3AB0003A487 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93623C181F33C3AB0003A487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93623C231F33C3AB0003A487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93623C021F33C3AB0003A487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93623C0C1F33C3AB0003A487 /* ViewController.swift in Sources */,
+				93623C0A1F33C3AB0003A487 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93623C161F33C3AB0003A487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93623C1F1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93623C211F33C3AB0003A487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93623C2A1F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93623C1C1F33C3AB0003A487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93623C051F33C3AB0003A487 /* Driver Onboarding 360 */;
+			targetProxy = 93623C1B1F33C3AB0003A487 /* PBXContainerItemProxy */;
+		};
+		93623C271F33C3AB0003A487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93623C051F33C3AB0003A487 /* Driver Onboarding 360 */;
+			targetProxy = 93623C261F33C3AB0003A487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93623C0D1F33C3AB0003A487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93623C0E1F33C3AB0003A487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93623C121F33C3AB0003A487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93623C131F33C3AB0003A487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93623C2C1F33C3AB0003A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93623C2D1F33C3AB0003A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93623C2F1F33C3AB0003A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Driver Onboarding 360/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93623C301F33C3AB0003A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Driver Onboarding 360/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		93623C321F33C3AB0003A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Driver Onboarding 360Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driver Onboarding 360.app/Driver Onboarding 360";
+			};
+			name = Debug;
+		};
+		93623C331F33C3AB0003A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Driver Onboarding 360Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driver Onboarding 360.app/Driver Onboarding 360";
+			};
+			name = Release;
+		};
+		93623C351F33C3AB0003A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Driver Onboarding 360UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Driver Onboarding 360";
+			};
+			name = Debug;
+		};
+		93623C361F33C3AB0003A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Driver Onboarding 360UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Driver Onboarding 360";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93623C011F33C3AB0003A487 /* Build configuration list for PBXProject "Driver Onboarding 360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93623C2C1F33C3AB0003A487 /* Debug */,
+				93623C2D1F33C3AB0003A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93623C2E1F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93623C2F1F33C3AB0003A487 /* Debug */,
+				93623C301F33C3AB0003A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93623C311F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93623C321F33C3AB0003A487 /* Debug */,
+				93623C331F33C3AB0003A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93623C341F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93623C351F33C3AB0003A487 /* Debug */,
+				93623C361F33C3AB0003A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93623BFE1F33C3AB0003A487 /* Project object */;
+}
