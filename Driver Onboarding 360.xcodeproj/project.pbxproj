@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934D34441F367CE100F0A91F /* arrive.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 934D34421F367C0000F0A91F /* arrive.mp4 */; };
+		934D34451F367CE400F0A91F /* online.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 934D343F1F367BB600F0A91F /* online.mp4 */; };
+		934D34461F367CE700F0A91F /* accept.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 934D34401F367BC100F0A91F /* accept.mp4 */; };
+		934D34471F367CEA00F0A91F /* dropoff_edited.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 934D34431F367CDE00F0A91F /* dropoff_edited.mp4 */; };
+		934D34481F367CED00F0A91F /* pickup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 934D34411F367BDC00F0A91F /* pickup.mp4 */; };
+		934D344C1F3683F900F0A91F /* gotham-pro-medium-59864c05a6ceb.otf in Resources */ = {isa = PBXBuildFile; fileRef = 934D344B1F3683F700F0A91F /* gotham-pro-medium-59864c05a6ceb.otf */; };
+		934D344D1F3683FB00F0A91F /* gotham-pro-black-59864c14af6f9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 934D344A1F3683F000F0A91F /* gotham-pro-black-59864c14af6f9.otf */; };
+		934D34501F36898500F0A91F /* lyft_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 934D344F1F36898400F0A91F /* lyft_music.mp3 */; };
+		934D34521F36920400F0A91F /* new_accept.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 934D34511F3691FE00F0A91F /* new_accept.mp4 */; };
 		93623C0A1F33C3AB0003A487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C091F33C3AB0003A487 /* AppDelegate.swift */; };
-		93623C0C1F33C3AB0003A487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C0B1F33C3AB0003A487 /* ViewController.swift */; };
 		93623C0F1F33C3AB0003A487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93623C0D1F33C3AB0003A487 /* Main.storyboard */; };
 		93623C111F33C3AB0003A487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93623C101F33C3AB0003A487 /* Assets.xcassets */; };
 		93623C141F33C3AB0003A487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93623C121F33C3AB0003A487 /* LaunchScreen.storyboard */; };
 		93623C1F1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C1E1F33C3AB0003A487 /* Driver_Onboarding_360Tests.swift */; };
 		93623C2A1F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C291F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift */; };
+		93623C3B1F33C8210003A487 /* DriverOnboarding360ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C3A1F33C8210003A487 /* DriverOnboarding360ViewController.swift */; };
+		93623C3D1F33C85A0003A487 /* DriverOnboarding360State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C3C1F33C85A0003A487 /* DriverOnboarding360State.swift */; };
+		93623C411F33CCFA0003A487 /* Video360View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C401F33CCFA0003A487 /* Video360View.swift */; };
+		93623C471F33CF7D0003A487 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93623C461F33CF7D0003A487 /* CoreMotion.framework */; };
+		93623C491F33CF860003A487 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93623C481F33CF860003A487 /* SceneKit.framework */; };
+		93623C4B1F33DCC70003A487 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93623C4A1F33DCC70003A487 /* SpriteKit.framework */; };
+		93623C501F3404450003A487 /* ScreenshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93623C4F1F3404450003A487 /* ScreenshotView.swift */; };
+		93D7AF2E1F34EADC00030F68 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AF2D1F34EADC00030F68 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		934D343F1F367BB600F0A91F /* online.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = online.mp4; sourceTree = "<group>"; };
+		934D34401F367BC100F0A91F /* accept.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = accept.mp4; sourceTree = "<group>"; };
+		934D34411F367BDC00F0A91F /* pickup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pickup.mp4; sourceTree = "<group>"; };
+		934D34421F367C0000F0A91F /* arrive.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arrive.mp4; sourceTree = "<group>"; };
+		934D34431F367CDE00F0A91F /* dropoff_edited.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dropoff_edited.mp4; sourceTree = "<group>"; };
+		934D344A1F3683F000F0A91F /* gotham-pro-black-59864c14af6f9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-pro-black-59864c14af6f9.otf"; sourceTree = "<group>"; };
+		934D344B1F3683F700F0A91F /* gotham-pro-medium-59864c05a6ceb.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-pro-medium-59864c05a6ceb.otf"; sourceTree = "<group>"; };
+		934D344F1F36898400F0A91F /* lyft_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lyft_music.mp3; sourceTree = "<group>"; };
+		934D34511F3691FE00F0A91F /* new_accept.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_accept.mp4; sourceTree = "<group>"; };
 		93623C061F33C3AB0003A487 /* Driver Onboarding 360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driver Onboarding 360.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93623C091F33C3AB0003A487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93623C0B1F33C3AB0003A487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93623C0E1F33C3AB0003A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93623C101F33C3AB0003A487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93623C131F33C3AB0003A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +71,14 @@
 		93623C251F33C3AB0003A487 /* Driver Onboarding 360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver Onboarding 360UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93623C291F33C3AB0003A487 /* Driver_Onboarding_360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_Onboarding_360UITests.swift; sourceTree = "<group>"; };
 		93623C2B1F33C3AB0003A487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93623C3A1F33C8210003A487 /* DriverOnboarding360ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverOnboarding360ViewController.swift; path = "View Controllers/DriverOnboarding360ViewController.swift"; sourceTree = "<group>"; };
+		93623C3C1F33C85A0003A487 /* DriverOnboarding360State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DriverOnboarding360State.swift; path = Models/DriverOnboarding360State.swift; sourceTree = "<group>"; };
+		93623C401F33CCFA0003A487 /* Video360View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Video360View.swift; path = Views/Video360View.swift; sourceTree = "<group>"; };
+		93623C461F33CF7D0003A487 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		93623C481F33CF860003A487 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		93623C4A1F33DCC70003A487 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		93623C4F1F3404450003A487 /* ScreenshotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenshotView.swift; path = Views/ScreenshotView.swift; sourceTree = "<group>"; };
+		93D7AF2D1F34EADC00030F68 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Views/UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93623C4B1F33DCC70003A487 /* SpriteKit.framework in Frameworks */,
+				93623C491F33CF860003A487 /* SceneKit.framework in Frameworks */,
+				93623C471F33CF7D0003A487 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		934D34491F3683E000F0A91F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				934D344B1F3683F700F0A91F /* gotham-pro-medium-59864c05a6ceb.otf */,
+				934D344A1F3683F000F0A91F /* gotham-pro-black-59864c14af6f9.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		934D344E1F36897B00F0A91F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				934D344F1F36898400F0A91F /* lyft_music.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
 		93623BFD1F33C3AB0003A487 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,7 @@
 				93623C1D1F33C3AB0003A487 /* Driver Onboarding 360Tests */,
 				93623C281F33C3AB0003A487 /* Driver Onboarding 360UITests */,
 				93623C071F33C3AB0003A487 /* Products */,
+				93623C451F33CF7D0003A487 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +150,13 @@
 		93623C081F33C3AB0003A487 /* Driver Onboarding 360 */ = {
 			isa = PBXGroup;
 			children = (
+				934D344E1F36897B00F0A91F /* Audio */,
+				934D34491F3683E000F0A91F /* Fonts */,
+				93623C421F33CEED0003A487 /* 360 Videos */,
+				93623C391F33C7DB0003A487 /* Controllers */,
+				93623C381F33C7D20003A487 /* Views */,
+				93623C371F33C7B00003A487 /* Model */,
 				93623C091F33C3AB0003A487 /* AppDelegate.swift */,
-				93623C0B1F33C3AB0003A487 /* ViewController.swift */,
 				93623C0D1F33C3AB0003A487 /* Main.storyboard */,
 				93623C101F33C3AB0003A487 /* Assets.xcassets */,
 				93623C121F33C3AB0003A487 /* LaunchScreen.storyboard */,
@@ -123,6 +181,71 @@
 				93623C2B1F33C3AB0003A487 /* Info.plist */,
 			);
 			path = "Driver Onboarding 360UITests";
+			sourceTree = "<group>";
+		};
+		93623C371F33C7B00003A487 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93623C3C1F33C85A0003A487 /* DriverOnboarding360State.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		93623C381F33C7D20003A487 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93D7AF2C1F34EAC700030F68 /* View Extensions */,
+				93D7AF2B1F34EAB900030F68 /* View classes */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		93623C391F33C7DB0003A487 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93623C3A1F33C8210003A487 /* DriverOnboarding360ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		93623C421F33CEED0003A487 /* 360 Videos */ = {
+			isa = PBXGroup;
+			children = (
+				934D343F1F367BB600F0A91F /* online.mp4 */,
+				934D34511F3691FE00F0A91F /* new_accept.mp4 */,
+				934D34421F367C0000F0A91F /* arrive.mp4 */,
+				934D34401F367BC100F0A91F /* accept.mp4 */,
+				934D34431F367CDE00F0A91F /* dropoff_edited.mp4 */,
+				934D34411F367BDC00F0A91F /* pickup.mp4 */,
+			);
+			name = "360 Videos";
+			sourceTree = "<group>";
+		};
+		93623C451F33CF7D0003A487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93623C4A1F33DCC70003A487 /* SpriteKit.framework */,
+				93623C481F33CF860003A487 /* SceneKit.framework */,
+				93623C461F33CF7D0003A487 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D7AF2B1F34EAB900030F68 /* View classes */ = {
+			isa = PBXGroup;
+			children = (
+				93623C401F33CCFA0003A487 /* Video360View.swift */,
+				93623C4F1F3404450003A487 /* ScreenshotView.swift */,
+			);
+			name = "View classes";
+			sourceTree = "<group>";
+		};
+		93D7AF2C1F34EAC700030F68 /* View Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93D7AF2D1F34EADC00030F68 /* UIViewExtensions.swift */,
+			);
+			name = "View Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +316,7 @@
 				TargetAttributes = {
 					93623C051F33C3AB0003A487 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKJHG4XBVW;
 						ProvisioningStyle = Automatic;
 					};
 					93623C191F33C3AB0003A487 = {
@@ -234,7 +358,16 @@
 			files = (
 				93623C141F33C3AB0003A487 /* LaunchScreen.storyboard in Resources */,
 				93623C111F33C3AB0003A487 /* Assets.xcassets in Resources */,
+				934D344C1F3683F900F0A91F /* gotham-pro-medium-59864c05a6ceb.otf in Resources */,
+				934D34441F367CE100F0A91F /* arrive.mp4 in Resources */,
+				934D34451F367CE400F0A91F /* online.mp4 in Resources */,
+				934D34471F367CEA00F0A91F /* dropoff_edited.mp4 in Resources */,
+				934D34521F36920400F0A91F /* new_accept.mp4 in Resources */,
+				934D344D1F3683FB00F0A91F /* gotham-pro-black-59864c14af6f9.otf in Resources */,
+				934D34501F36898500F0A91F /* lyft_music.mp3 in Resources */,
+				934D34481F367CED00F0A91F /* pickup.mp4 in Resources */,
 				93623C0F1F33C3AB0003A487 /* Main.storyboard in Resources */,
+				934D34461F367CE700F0A91F /* accept.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +392,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93623C0C1F33C3AB0003A487 /* ViewController.swift in Sources */,
+				93623C501F3404450003A487 /* ScreenshotView.swift in Sources */,
+				93D7AF2E1F34EADC00030F68 /* UIViewExtensions.swift in Sources */,
+				93623C411F33CCFA0003A487 /* Video360View.swift in Sources */,
 				93623C0A1F33C3AB0003A487 /* AppDelegate.swift in Sources */,
+				93623C3D1F33C85A0003A487 /* DriverOnboarding360State.swift in Sources */,
+				93623C3B1F33C8210003A487 /* DriverOnboarding360ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +551,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKJHG4XBVW;
 				INFOPLIST_FILE = "Driver Onboarding 360/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,11 +566,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKJHG4XBVW;
 				INFOPLIST_FILE = "Driver Onboarding 360/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lyft.Driver-Onboarding-360";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +650,7 @@
 				93623C301F33C3AB0003A487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93623C311F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +659,7 @@
 				93623C331F33C3AB0003A487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93623C341F33C3AB0003A487 /* Build configuration list for PBXNativeTarget "Driver Onboarding 360UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +668,7 @@
 				93623C361F33C3AB0003A487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
